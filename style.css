@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background: url("edubg.jpg");
+    background-size: cover;
+}
+.header{
+    position: relative;
+    top:-130px;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    background-color: transparent;
+}
+.headericons li a{
+    background-color: transparent !important;
+}
+.header .logo{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    padding-top: 50px;
+    position: relative;
+    top: 70px;
+   
+}
+.header .logo img{
+    display: inline-block;
+
+}
+
+.button ul{
+    float: right;
+    width:20%;
+    height: auto;
+}
+.button ul li{
+    list-style: none;
+    display: inline;
+    font-size: 12px;
+}
+.button ul li a{
+text-decoration: none;
+color: white;
+padding: 5px 10px;
+background-color: rgb(2, 102, 128);
+
+
+} 
+.button ul li a:hover{
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgb(0, 80, 80);
+    
+    } 
+.hometext{
+    width: 40%;
+    height: 30%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: right;
+    position: relative;
+    top: 30%;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(3px);
+}
+.footer{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    margin: 0 auto;
+}
+.footer p{
+    display: inline-block;
+    font-size: 16px;
+}
+/*vision page code */
+.vision{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top:30vh;
+}
+.logout{
+    background-color: rgb(165, 2, 2) !important;
+}
+/*vision page code ends*/
+
+/*subject page code start*/
+.subject{
+    position: relative;
+    width: 150px;
+    transition: 0.3s;
+    height: 250px;
+    background-color:transparent ;
+    text-align: center;
+    font-weight:600 ;
+    display: inline-block;
+    margin: 1%;
+ 
+}
+.subject:hover{
+    position: relative;
+    transition: 0.3s;
+    width: 150px;
+    height: 250px; 
+    transform: scale(1.1);
+    text-align: center;
+    font-weight:600 ;
+    display: inline-block;
+    cursor: pointer;
+}
+.subjectcontainer{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: rgba(228, 228, 228, 0.322);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+.scontentbox{
+
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.44);
+    
+}
+.scontentbox h1{
+    background-color: rgb(131, 0, 0);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+
+}
+.scontentbox ul li{
+    list-style: none;
+    font-size: 12px;
+}
+
+
+/*subject page code ends*/
+
+/*game page code start*/
+.gamecontainer{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.gbox{
+    display: inline-block;
+    margin: 2%;
+}
+/*game page code ends*/
+/*cart page code start*/
+.boxitem{
+ width: 500px;
+ background-color: rgba(0, 48, 45, 0.14);
+ backdrop-filter: blur(5px);
+ height: 150px;
+ margin: 1%;
+
+}.boxitem .boximage{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url("gamebox.png");
+    background-size: cover;
+}
+.boxitem p{
+    display: inline-block;
+    width: 40%;
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+    text-align: justify;
+}
+.boxitem .quantity{
+    position: relative;
+    top: -60px;
+}
+.cartcontainer h1{
+   
+    text-align: left;
+    font-size: 30px;
+}
+.cartcontainer{
+    top: 15vh !important;
+
+}
+
+.cartfooter{
+    top: 0vh !important;
+}
+.checkout{
+    display: inline-block;
+    width: 200px;
+    height:350px ;
+    position: relative;
+    top: -45vh;
+    right: -10vh;
+    background-color: rgba(12, 12, 12, 0.288);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    border-radius:5px;
+    text-align: center;
+}
+.checkout h1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+  
+}
+.checkout h2{
+    font-size: 12px;
+    position: relative;
+    left: 10px;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+}
+.boxcontainer{
+    display: inline-block;
+}
+.checkoutbtn{
+    padding: 5px 10px;
+    background-color:green;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    top: 220px;
+
+
+}
+.checkoutbtn:hover{
+    transition: 0.3s;
+    background-color: rgb(4, 59, 4);
+}
+/*cart page code ends*/
+
+/*Box Page code*/
+.cartbtn{
+    position: relative;
+    left: -70vh;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.profilecontainer img{
+    position: relative;
+    left: -20%;
+
+}
+.profilefunction{
+    text-align: left !important;
+    left: 20%;
+}
+.profilebtn{
+  color: white;
+  font-size: 10px;
+  background-color: rgb(0, 81, 95);
+  padding: 5px 10px;
+  margin-left: 5px;
+  display: inline-block;
+  
+}
+/*box page code ends*/
